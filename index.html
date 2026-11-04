@@ -4,7 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>KbzonZito · Desarrollador de apps</title>
-<meta name="description" content="Apps sencillas y cuidadas, diseñadas y desarrolladas por KbzonZito.">
+<meta name="description" content="Apps sencillas, sin cuentas ni anuncios, diseñadas y desarrolladas por KbzonZito.">
+<link rel="alternate" hreflang="es" href="https://kbzonzito.github.io/">
+<link rel="alternate" hreflang="en" href="https://kbzonzito.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://kbzonzito.github.io/">
 <meta name="theme-color" content="#ECEEEA" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1D2220" media="(prefers-color-scheme: dark)">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
@@ -18,14 +21,18 @@
 <body>
 <header class="site-header"><div class="wrap">
   <a class="brand" href="/">KbzonZito</a>
-  <nav class="nav" aria-label="Principal"><a href="/#apps">Apps</a><a href="/#sobre-mi">Sobre mí</a><a href="/contacto.html">Contacto</a></nav>
-  <button class="theme-toggle" type="button" aria-label="Cambiar tema"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button>
+  <nav class="nav" aria-label="Apps">
+    <a href="/#apps">Apps</a><a class="nav-about" href="/#about">Sobre mí</a><a href="/contacto.html">Contacto</a>
+  </nav>
+  <a class="icon-btn lang" href="/en/" hreflang="en" lang="en" title="English" aria-label="English">EN</a>
+  <a class="icon-btn" href="https://github.com/KbzonZito" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+  <button class="icon-btn theme-toggle" type="button" aria-label="Cambiar tema"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button>
 </div></header>
 
 <main>
   <section class="hero wrap">
-    <h1><span style="color:inherit">Hago apps</span><span>que hacen una cosa, y la hacen bien.</span></h1>
-    <p>Soy KbzonZito, desarrollador independiente. Diseño, programo y mantengo cada app de principio a fin.</p>
+    <h1><span>Hago apps</span><span>que hacen una cosa, y la hacen bien.</span></h1>
+    <p>Soy KbzonZito, desarrollador independiente. Diseño, programo y mantengo cada app de principio a fin, sin cuentas, sin anuncios y con el código abierto.</p>
     <div class="actions">
       <a class="btn" href="#apps">Ver mis apps</a>
       <a class="btn quiet" href="/contacto.html">Escríbeme</a>
@@ -35,19 +42,44 @@
   <section class="section wrap" id="apps">
     <div class="section-head">
       <h2>Apps</h2>
-      <p>1 publicada</p>
+      <p>3 apps</p>
     </div>
     <ul class="products">
-      <!-- Copia este <li> por cada app nueva. Usa un view-transition-name único por app. -->
       <li>
-        <a class="product" href="/apps/mi-app/">
-          <img src="/assets/icon-placeholder.svg" alt="" style="view-transition-name:icon-mi-app">
+        <a class="product" href="/apps/printer-hub/">
+          <img src="/assets/apps/printer-hub.png" alt="" width="64" height="64" style="view-transition-name:icon-printer-hub">
           <div>
-            <h3 style="view-transition-name:name-mi-app;width:fit-content">Mi App</h3>
-            <p>Descripción corta de lo que hace la app.</p>
+            <h3 style="view-transition-name:name-printer-hub">Printer Hub</h3>
+            <p>Controla tu impresora 3D con Klipper desde el teléfono.</p>
           </div>
           <div class="product-end">
-            <div class="meta"><span class="tag">Android</span></div>
+            <div class="meta"><span class="tag">Android</span><span class="tag status">Disponible</span></div>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="product" href="/apps/bookloft/">
+          <img src="/assets/apps/bookloft.png" alt="" width="64" height="64" style="view-transition-name:icon-bookloft">
+          <div>
+            <h3 style="view-transition-name:name-bookloft">Bookloft</h3>
+            <p>Tu biblioteca personal: estantes, sagas, notas y tus EPUB y PDF.</p>
+          </div>
+          <div class="product-end">
+            <div class="meta"><span class="tag">Android</span><span class="tag status">Beta</span></div>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="product" href="/apps/cartera-cl/">
+          <img src="/assets/apps/cartera-cl.svg" alt="" width="64" height="64" style="view-transition-name:icon-cartera-cl">
+          <div>
+            <h3 style="view-transition-name:name-cartera-cl">Cartera CL</h3>
+            <p>Sigue tu cartera de acciones de la Bolsa de Santiago.</p>
+          </div>
+          <div class="product-end">
+            <div class="meta"><span class="tag">Web</span><span class="tag">PWA</span><span class="tag status pending">En desarrollo</span></div>
             <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
           </div>
         </a>
@@ -55,17 +87,14 @@
     </ul>
   </section>
 
-  <section class="section wrap" id="sobre-mi">
+  <section class="section wrap" id="about">
     <div class="about">
       <h2>Sobre mí</h2>
       <div>
-        <p>Me gusta construir herramientas pequeñas, rápidas y sin distracciones: sin registros innecesarios, sin pantallas de más y respetando tu privacidad.</p>
-        <p>Cada app la diseño y la programo yo, así que si algo no funciona o echas en falta algo, me llega directamente.</p>
-        <ul class="facts">
-          <li class="tag">Android</li>
-          <li class="tag">Diseño de producto</li>
-          <li class="tag">Privacidad primero</li>
-        </ul>
+        <p>Me gusta construir herramientas pequeñas y rápidas que resuelven un problema concreto: controlar mi impresora 3D, ordenar mis libros, seguir mis inversiones.</p>
+        <p>Todas funcionan sin cuentas y guardan tus datos en tu dispositivo. Publico el código en GitHub, así que puedes ver cómo funcionan, reportar errores o proponer ideas.</p>
+        <ul class="facts"><li class="tag">Android</li><li class="tag">Web</li><li class="tag">TypeScript</li><li class="tag">Código abierto</li></ul>
+        <p class="gh-link"><a class="btn quiet" href="https://github.com/KbzonZito"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>Ver mi perfil de GitHub</a></p>
       </div>
     </div>
   </section>
@@ -83,7 +112,11 @@
 
 <footer class="site-footer"><div class="wrap">
   <span>© 2026 KbzonZito</span>
-  <a href="mailto:mvergaraguerrero@proton.me">mvergaraguerrero@proton.me</a>
+  <nav class="footer-links">
+    <a href="mailto:mvergaraguerrero@proton.me">mvergaraguerrero@proton.me</a>
+    <a href="https://github.com/KbzonZito">GitHub</a>
+    <a href="https://ko-fi.com/kbzonzito">Apoyar en Ko-fi</a>
+  </nav>
 </div></footer>
 </body>
 </html>
